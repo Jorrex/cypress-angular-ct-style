@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { TextComponent } from './Text.component';
+import { TestComponent } from './Test.component';
 
 @NgModule({
-  imports: [CommonModule, TextComponent],
-  exports: [TextComponent]
+  imports: [CommonModule, TestComponent],
+  exports: [TestComponent]
 })
 export class InputsModule { }

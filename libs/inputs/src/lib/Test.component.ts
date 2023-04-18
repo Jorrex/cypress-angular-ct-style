@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 @Component({
     standalone: true,
     // eslint-disable-next-line @angular-eslint/component-selector
-    selector: 'text',
-    templateUrl: 'Text.component.html',
-    styleUrls: ['Text.component.scss'],
+    selector: 'test',
+    templateUrl: 'Test.component.html',
+    styleUrls: ['Test.component.scss'],
     styles: [` button { background-color: lightblue; }`]
 })
-export class TextComponent {
+export class TestComponent {
 
 }
