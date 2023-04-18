@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
-import { TextComponent } from 'libs/inputs/src/lib/Text.component';
-
-import { AppComponent } from './app.component';
+import { TestComponent } from '@app/inputs';
 
 @NgModule({
-    declarations: [AppComponent],
-    imports: [TextComponent]
+    imports: [TestComponent]
 })
 export class AppModule {
 

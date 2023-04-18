@@ -26,9 +26,9 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@cube-mobile/inputs": [
+      "@app/inputs": [
         "libs/inputs/src/index.ts"
-      ],
+      ]
     }
   },
   "exclude": [
